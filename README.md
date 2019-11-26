@@ -2,7 +2,8 @@
 This repository contains sample application demonstrating how the addToBackStack() method works while performing Fragment Transactions.
 
 public abstract FragmentTransaction addToBackStack (String name)
-Added in API level 11 Add this transaction to the back stack. This means that the transaction will be remembered after it is committed,
+
+Added in API level 11. Add this transaction to the back stack. This means that the transaction will be remembered after it is committed,
 and will reverse its operation when later popped off the stack.
 
 Parameters 'name' :  An optional name for this back stack state, or null.
